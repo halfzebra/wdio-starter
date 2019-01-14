@@ -1,19 +1,13 @@
 {
   "name": "wdio-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "postinstall": "selenium-standalone install",
     "test": "wdio"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^5.2.8"
-  },
-  "devDependencies": {
+    "@wdio/cli": "^5.2.8",
     "@wdio/local-runner": "^5.2.8",
     "@wdio/mocha-framework": "^5.2.8",
     "@wdio/selenium-standalone-service": "^5.2.2",
