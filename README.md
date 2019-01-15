@@ -1,6 +1,8 @@
 
 # wdio-starter
 
+[![Build Status](https://travis-ci.org/halfzebra/wdio-starter.svg?branch=master)](https://travis-ci.org/halfzebra/wdio-starter)
+
 Minimal [WebdriverIO](https://webdriver.io/) setup.
 
 ## Runninng locally
