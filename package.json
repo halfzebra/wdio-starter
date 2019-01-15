@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "selenium-standalone install",
-    "test": "wdio"
+    "test": "wdio wdio.conf.js"
   },
   "dependencies": {
     "@wdio/cli": "^5.2.8",
