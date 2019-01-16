@@ -52,7 +52,11 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'chrome',
+        // Run the headless mode on Travis CI
+        'goog:chromeOptions': {
+          args: process.env.CI ? ['headless', 'disable-gpu'] : [],
+        },
     }],
     //
     // ===================
