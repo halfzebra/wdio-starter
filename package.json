@@ -11,6 +11,6 @@
     "@wdio/mocha-framework": "^5.2.8",
     "@wdio/selenium-standalone-service": "^5.2.2",
     "@wdio/spec-reporter": "^5.2.3",
-    "@wdio/sync": "^5.2.8"
+    "@wdio/sync": "^5.7.6"
   }
 }
